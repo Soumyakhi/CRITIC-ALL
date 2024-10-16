@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat';
+}
+form{
+    width: 100%;
+}
+@font-face {
+    font-family: font;
+    src: url(font.otf);
+}
+body{
+    background-color: #e7c00f;
+    background-image: linear-gradient(to left,#e7c00f,#bca100);   
+}
+.background{
+    background: rgba(0,0,0,.9);
+    padding-bottom: 5%;
+    background-image: url(images/Background3.png);
+    
+
+}
+.logo_container{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: white;
+}
+.logo{
+    height: 100px;
+    width: 300px;
+    background-image: url('images/logo1.png');
+    background-size: cover;
+}
+.both_container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+.company_container{
+    display: block;
+    width: 100%;    
+}
+.user_container{
+    display: block;
+    width: 100%;
+}
+.flexcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    
+}
+.login{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+.signup{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-right: 3px solid #6a6969c5;
+    
+}
+.logsin{
+    padding: 5%;
+    border: none;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #6a6969;
+    height: 70px;
+    
+}
+.logsinadmin{
+    padding: 5%;
+    border: none;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #6a6969;
+    
+}
+.loginbox{
+    box-shadow: 3px 3px 3px 2px rgba(177, 169, 169, 0.524);
+    padding: 2%;
+    background-color: white;
+    width: 40%;
+    border-radius: 5%;
+    opacity: .85;
+    margin-bottom: 0;
+
+}
+.create-login{
+    display: block;
+}
+.signlog_container{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+}
+.ussericon{
+    display: inline-block;
+    background-image: url('images/user.png');
+    background-size: cover;
+    height: 13px;
+    width: 13px;
+    margin-right: 2%;
+}
+.inp{
+    width: 80%;
+    font-size:17px;
+    border: none;
+    outline:none;
+    font-weight: lighter;
+    color: black;
+}
+.input1container{
+    margin-top: 7%;
+    margin-bottom: 5%;
+    border: 3px solid #41404097;
+    padding: 2%;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.input2container{
+    margin-bottom: 5%;
+    border: 3px solid #41404097;
+    padding: 2%;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.passwordicon{
+    display: inline-block;
+    background-image: url('images/password.png');
+    background-size: cover;
+    height: 14px;
+    width: 12px;
+    margin-right: 2%;
+}
+.create-login-container{
+    margin-left: 13%;
+    margin-right: 13%;
+    display: flex;
+    padding-bottom: 7%;
+    justify-content: flex-end;
+    
+}
+.create-login{
+    border: none;
+    background-color: #e7c00f;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 7%;
+    padding-right: 7%;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #322020;
+    border-radius: 5%;
+    
+}
+.create-login:hover{
+    background-color: #c3a20d;
+    cursor: pointer;
+}
+#login_admin{
+    font-size: 40px;
+}
+#sin:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #414040c5;
+}
+#log:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #414040c5;
+}
+.typelogin{
+    display: flex;
+    justify-content:space-around;
+    height: fit-content;
+    margin-bottom:1%;
+    margin-top: 2.5%;
+    align-items: center;
+}
+
+
+
+h1{
+    display: inline-block;
+    padding: 1%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 1%;
+    color: #e3e7e7;
+    background-color: #22a699;
+    font-family: font;
+}
+h1:hover{
+    cursor: default;
+    
+}
+#adminmargin{
+    margin-top: 5%;
+}
+.info{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+}
+.userinfo{
+    font-family: font;
+    width: 60%;
+    display: flex;
+    color: #F0F0F0;
+    justify-content: center;
+    font-size:60px;
+    font-weight: bolder;
+    text-align: center;
+    cursor: default;
+}
+.admininfo{
+    font-family: font;
+    width: 60%;
+    display: flex;
+    color: #F0F0F0;
+    font-size:60px;
+    justify-content: center;
+    font-weight: bolder;
+    text-align: center;
+    cursor: default;
+}
+.foot{
+
+    height: 60px;
+    background-color: black;
+    z-index: 5;
+}
+.input3container{
+    margin-top: 0%;
+    margin-bottom: 5%;
+    border: 3px solid #41404097;
+    padding: 2%;
+    margin-left: 13%;
+    margin-right: 13%;
+
+}
+.input4container{
+    margin-top: 0%;
+    margin-bottom: 5%;
+    border: 3px solid #41404097;
+    padding: 2%;
+    margin-left: 13%;
+    margin-right: 13%;
+
+}
+.emailicon{
+    display: inline-block;
+    background-image: url('images/Email.png');
+    background-size: cover;
+    height: 16px;
+    width: 16px;
+    margin-right: 2%;
+
+}
+#login-botton{
+    margin-top: 8%;
+    margin-bottom: 0px;
+}
+
+
+@media(max-width:782px){
+    .admininfo{
+        font-family: font;
+        display: flex;
+        color: #F0F0F0;
+        font-size:30px;
+        width: 70%;
+        justify-content: center;
+        font-weight: bolder;
+        text-align: center;
+        cursor: default;
+    }
+    .userinfo{
+        font-family: font;
+        display: flex;
+        width: 70%;
+        color: #F0F0F0;
+        justify-content: center;
+        font-size:30px;
+        font-weight: bolder;
+        text-align: center;
+        cursor: default;
+    }
+    .logo{
+        height: 67px;
+        width: 200px;
+        background-image: url('images/logo1.png');
+        background-size: cover;
+    }
+    .logo_container{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .both_container{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .company_container{
+        display: block;
+        width: 100%;    
+    }
+    .user_container{
+        display: block;
+        width: 100%;
+    }
+    .flexcontainer{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        width: 100%;
+        
+    }
+    .typelogin{
+        display: flex;
+        justify-content:space-around;
+        height: fit-content;
+        margin-bottom: 2%;
+        margin-top: 7%;
+    }
+    .info{
+        margin-top: 2%;
+        display: flex;
+        justify-content: center;
+        width: 100%; 
+    }
+    .loginbox{
+        box-shadow: 3px 3px 3px 2px rgba(177, 169, 169, 0.1);
+        padding: 2%;
+        background-color: white;
+        width: 65%;
+        height: fit-content;
+        border-radius: 5%;
+        opacity: .85;
+        margin-bottom: 10%;
+    
+    }
+    .create-login-container{
+        margin-top: 2%;
+        margin-left: 13%;
+        margin-right: 13%;
+        display: flex;
+        padding-bottom: 3%;
+        justify-content: flex-end;
+        
+    }
+    .logsin{
+        padding: 5%;
+        border: none;
+        font-weight: bolder;
+        font-size: 20px;
+        color: #6a6969;
+        height: 45px;
+        
+    }
+    .input1container{
+        margin-top: 10%;
+        margin-bottom: 5%;
+        border: 3px solid #41404097;
+        padding: 2%;
+        margin-left: 13%;
+        margin-right: 13%;
+    }
+    #login_admin{
+        font-size: 30px;
+    }
+    .background{
+        background: rgba(0,0,0,.9) url('images/Background3.png');
+        background-size:cover;
+    }
+    .inp{
+        width: 80%;
+        font-size:17px;
+        border: none;
+        outline:none;
+        font-weight: lighter;
+        color: black;
+    }
+    h1{
+        display: inline-block;
+        padding: 2%;
+        display: inline-block;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 1%;
+        color: #e3e7e7;
+        background-color: #22a699;
+        font-family: font;
+    }
+    .create-login{
+        font-size: 15px;
+    }
+    #login-botton{
+        margin-top: 8%;
+        margin-bottom: 0px;
+    }
+}
+
