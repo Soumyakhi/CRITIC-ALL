@@ -15,7 +15,6 @@ Critic All is a web platform where users can review movies, games, TV shows, and
 - **Backend**: Java Servlet API
 - **Database**: MySQL
 - **Frontend**: HTML, CSS, JavaScript
-- **Hosting**: (Add details if hosted)
 
 ## Setup Instructions
 
